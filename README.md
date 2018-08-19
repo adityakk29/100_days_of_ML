@@ -13,5 +13,5 @@
           imputer = Imputer(axis = 0, missing_values = 'NaN', strategy = 'mean')
           imputer = imputer.fit_transform(X[:, *columns to impute*])
           ```
-![alt text](https://github.com/adityakk29/100_days_of_ML/blob/master/Images/1%20_RA3mCS30Pr0vUxbp25Yxw.png)
+![alt text](https://github.com/adityakk29/100_days_of_ML/blob/master/Images/Data%20preprocessing.png)
 [Source](https://towardsdatascience.com/how-to-handle-missing-data-8646b18db0d4) for the image
