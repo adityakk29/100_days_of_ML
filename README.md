@@ -5,7 +5,7 @@
    - [x] Handling missing values in the data.
      There is no good way to deal with missing data
      - Solutions:
-       - Remove all rows with null values (Worst possible solution).
+       - Remove all rows with null values.
        - Replacing missing value with the mean for that column using the [Imputer](http://scikit-learn.org/stable/modules/generated/sklearn.preprocessing.Imputer.html) class from `sklearn.preprocessing`.
        
           ```
